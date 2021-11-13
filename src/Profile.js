@@ -34,7 +34,11 @@ export class Profile extends React.Component {
 
     return (
       <div className={className}>
-        <div className="profile-picture"></div>
+        <div className="profile-picture">
+          {!isLoading ? (
+            <img src={this.state.userData.profilePictureUrl} alt=""></img>
+          ) : null}
+        </div>
         <div className="profile-body">
           <h2>{name}</h2>
           <h3>@{this.props.username}</h3>

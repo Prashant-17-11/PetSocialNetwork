@@ -60,6 +60,13 @@ Create a new variable called friends inside render(). When the component is load
 
 Next, update the usernames prop of the Userlist component. Change it from empty array to {friends}.
 
+## Task 8
+
+Let's update the users profile picture.
+
+Find the div with the class name of profile-picture.
+For ifLoading == false put an image tag with src={this.state.userData.profilePictureUrl} and alt=""
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
