@@ -6,6 +6,13 @@ The objective is to learn about lifecycle events.
 In this project, we will build a simple social network for pets. We will be able to view a pet's profile and navigate to other profiles. There will also be a profile directory where we can see all of the profiles.
 There have been three profiles set before hand.
 
+## Task 1
+
+The first thing we'll want to do is load user data into the componet's state. In order to do that, however, we'll need a place to store that data.
+Look into Profile.js.
+
+Create a consturctor for this component. Inside, set this.state to {usedData: null}, which will represent a profile with no user data loaded. Don't forget to call super.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
