@@ -1,3 +1,11 @@
+# Social Network for Pets
+
+This project is built under react101 course from codecademey.
+The objective is to learn about lifecycle events.
+
+In this project, we will build a simple social network for pets. We will be able to view a pet's profile and navigate to other profiles. There will also be a profile directory where we can see all of the profiles.
+There have been three profiles set before hand.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
