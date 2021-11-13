@@ -13,6 +13,19 @@ Look into Profile.js.
 
 Create a consturctor for this component. Inside, set this.state to {usedData: null}, which will represent a profile with no user data loaded. Don't forget to call super.
 
+## Task 2
+
+Now we have a place to store our data, let's start loading it.
+
+Create a new method called loadUserData() that does two things:
+
+ <ol>
+    <li>Set the userData state to null while the data is loading. Once it's loaded, we'll update it.</li>
+    <li>Fetches the user data with fetchUserData</li>
+ </ol>
+
+(Note: fetchUserData simulates real user data)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
