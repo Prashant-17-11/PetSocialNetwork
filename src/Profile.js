@@ -16,6 +16,10 @@ export class Profile extends React.Component {
     });
   }
 
+  componentDidMount() {
+    this.loadUserData();
+  }
+
   render() {
     const isLoading = true;
 

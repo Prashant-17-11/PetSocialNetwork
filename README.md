@@ -26,6 +26,12 @@ Create a new method called loadUserData() that does two things:
 
 (Note: fetchUserData simulates real user data)
 
+## Task 3
+
+Now that we have a method for loading user data, let's call it when the component mounts.
+
+Add a lifecycle method for when the component mounts, and call this.loadUserData() inside.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
