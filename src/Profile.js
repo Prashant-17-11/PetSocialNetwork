@@ -20,6 +20,10 @@ export class Profile extends React.Component {
     this.loadUserData();
   }
 
+  componentWillUnmonunt() {
+    cancelFetch(this.fetchID);
+  }
+
   render() {
     const isLoading = this.state.userData === null ? true : false;
 

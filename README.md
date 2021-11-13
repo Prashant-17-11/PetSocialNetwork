@@ -67,6 +67,22 @@ Let's update the users profile picture.
 Find the div with the class name of profile-picture.
 For ifLoading == false put an image tag with src={this.state.userData.profilePictureUrl} and alt=""
 
+## Task 9
+
+Cleaning Up
+
+There are two problems left to fix!
+
+<ol>
+<li>If you open a profile, then quickly return to the directory, then go to a differnt pet's profile, there will be some jitter</li>
+<li>If you click on a pet's friends, only the username updates.</li>
+</ol>
+
+Let's start with the first problem:
+
+We'll slove this by canceling the fetch when Profile unmouns.
+Add a lifecycle method for when the component unmounts, and call cancelFetch(this.fetchID) inside.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
