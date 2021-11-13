@@ -38,6 +38,16 @@ We're now loading user data, but we aren't displaying it anywhere because we hav
 
 The firs thing we'll need to change is isLoading. It shouldn't always be true - it should only be true when this.state.userData === null. Updata isLoading to reflect that.
 
+## Task 5
+
+Let's start by displaying the user's name.
+
+Inside of render(), create a new variable called name.
+
+If isLoading is true, set name to a sample value, such as 'Loading...'. Otherwise, set name to this.state.userData.name.
+
+Finally, replace "Name goes here" with {name}.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
