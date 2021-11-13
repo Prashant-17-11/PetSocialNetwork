@@ -29,6 +29,7 @@ export class Profile extends React.Component {
     }
 
     let name = isLoading ? "Loading....." : this.state.userData.name;
+    let bio = isLoading ? "Bio...." : this.state.userData.bio;
 
     return (
       <div className={className}>
@@ -36,7 +37,7 @@ export class Profile extends React.Component {
         <div className="profile-body">
           <h2>{name}</h2>
           <h3>@{this.props.username}</h3>
-          <p>Bio goes here</p>
+          <p>{bio}</p>
           <h3>My friends</h3>
           <Userlist usernames={[]} onChoose={this.props.onChoose} />
         </div>

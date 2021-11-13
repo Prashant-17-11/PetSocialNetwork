@@ -48,6 +48,10 @@ If isLoading is true, set name to a sample value, such as 'Loading...'. Otherwis
 
 Finally, replace "Name goes here" with {name}.
 
+## Task 6
+
+Time to do the same exact thing, but for user's bio.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
