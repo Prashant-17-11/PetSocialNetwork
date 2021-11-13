@@ -83,6 +83,18 @@ Let's start with the first problem:
 We'll slove this by canceling the fetch when Profile unmouns.
 Add a lifecycle method for when the component unmounts, and call cancelFetch(this.fetchID) inside.
 
+## Task 10
+
+Let's solve the final problem.
+Add a lifecycle method for when the component updates. If the usrname has changed (in other words, if this.props.username !== prevProps.username), we should do two things:
+
+<ol>
+<li>Cancel the fetch currently in progress with cancelFetch(this.fetchID)</li>
+<li>Call this.loadUserData() again.</li>
+</ol>
+
+Once that's done we will be able to navigate through profiles with ease.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
