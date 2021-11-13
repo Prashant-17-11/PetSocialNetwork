@@ -32,6 +32,12 @@ Now that we have a method for loading user data, let's call it when the componen
 
 Add a lifecycle method for when the component mounts, and call this.loadUserData() inside.
 
+## Task 4
+
+We're now loading user data, but we aren't displaying it anywhere because we haven't updated the render() method. Let's fix that!
+
+The firs thing we'll need to change is isLoading. It shouldn't always be true - it should only be true when this.state.userData === null. Updata isLoading to reflect that.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
