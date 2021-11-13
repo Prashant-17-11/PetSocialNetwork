@@ -52,6 +52,14 @@ Finally, replace "Name goes here" with {name}.
 
 Time to do the same exact thing, but for user's bio.
 
+## Task 7
+
+Let's update the user's friend list.
+
+Create a new variable called friends inside render(). When the component is loading, friends should be the empty array([]). Otherwise, it should be this.state.useData.friends.
+
+Next, update the usernames prop of the Userlist component. Change it from empty array to {friends}.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
