@@ -95,6 +95,8 @@ Add a lifecycle method for when the component updates. If the usrname has change
 
 Once that's done we will be able to navigate through profiles with ease.
 
+Voila!! Project finished successfully!!!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
